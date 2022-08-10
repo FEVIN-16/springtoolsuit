@@ -1,0 +1,27 @@
+package com.hexaware.collectionsandjava8;
+
+import java.util.ArrayList;
+
+public class TestSeller {
+
+	public static void main(String[] args) {
+		Seller se=new Seller();
+//		se.setSellerId(01);
+//		se.setSellerName("Fejin");
+//		se.setSellerEmail("fejinfm2000@gmail.com");
+//		se.setSellerLocation("Kanyakumari");
+		
+		int setSellerId[] = {01, 02, 03, 04, 05, 06};   
+		String setSellerName[] = {"Fevin", "Vibi", "Fejin", "Elsie", "Arun", "Shijin"};  
+		String setSellerEmail[] = {"fevin@gmail.com", "Vibi@gmail.com", "Fejin@gmail.com", "Elsie@gmail.com", "Arun@gmail.com", "Shijin@gmail.com"}; 
+		String setSellerLocation[] = {"Kanyakumari", "Chennai", "Kanyakumari", "Chennai", "Madurai", "Chennai"}; 
+		ArrayList<Object> arr=new ArrayList<Object>();   
+		for (int i = 0; i < arr.size(); i++)   
+		{   
+		//send values to the constructor to be saved in the Product class  
+		arr.add(new Object (pid[i], pname[i], pavailability[i], pprice[i], prating[i]));   
+		}  
+
+	}
+
+}

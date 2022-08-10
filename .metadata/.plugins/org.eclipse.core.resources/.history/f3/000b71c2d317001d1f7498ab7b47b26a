@@ -1,0 +1,23 @@
+package com.hexaware.functionalinterface;
+
+public class LambdaExpressionExample {
+
+	public static void main(String[] args) {
+		//lambda Expression
+		Addition ad=()->{
+			int res=5+2;
+			System.out.println("Addition="+res);
+		};
+		ad.add();
+		//lambda Expression
+		Division dv=(x,y)->{
+			if(x>y)
+				return x/y;
+			else
+				return y/x;
+		};
+		dv.div(6, 3);
+
+	}
+
+}

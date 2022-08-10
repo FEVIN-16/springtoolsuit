@@ -1,0 +1,15 @@
+package com.hexaware.collectionsandjava8;
+
+import java.util.ArrayList;
+import java.util.List;
+public class TestSeller {
+	
+	public static void main(String[] args) {
+		SellerTask st=new SellerTask();
+		st.record();
+		st.displaySeller();
+		st.searchId(01);
+		st.deleteId(01);
+	}
+
+}

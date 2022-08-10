@@ -1,0 +1,11 @@
+package com.hexaware.collectionsandjava8;
+
+public class TestSeller {
+
+	public static void main(String[] args) {
+		Seller se=new Seller();
+		
+
+	}
+
+}

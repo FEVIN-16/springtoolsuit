@@ -1,0 +1,23 @@
+package com.hexaware.collectionsandjava8;
+
+public class Seller {
+
+	private int sellerId;
+	private String sellerName;
+	private String sellerEmail;
+	private String sellerLocation;
+	
+	public void setSellerId(int sellerId) {
+		this.sellerId=sellerId;
+	}
+	public void setSellerName(int sellerName) {
+		this.sellerName=sellerName;
+	}
+	public void setSellerId(int sellerId) {
+		this.sellerId=sellerId;
+	}
+	public void setSellerId(int sellerId) {
+		this.sellerId=sellerId;
+	}
+
+}

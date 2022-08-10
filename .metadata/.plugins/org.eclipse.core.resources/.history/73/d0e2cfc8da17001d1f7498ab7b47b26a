@@ -1,0 +1,5 @@
+package com.hexaware.functionlinterface;
+
+public interface Message {
+
+}

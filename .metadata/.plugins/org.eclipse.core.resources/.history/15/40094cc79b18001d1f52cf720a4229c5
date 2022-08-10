@@ -1,0 +1,22 @@
+package com.hexaware.collectionsandjava8;
+
+import java.util.ArrayList;
+import java.util.List;
+public class TestSeller {
+	List <Seller> sellerList = new ArrayList <Seller> ();
+	
+	public void record() {
+		sellerList.add(new Seller(01,"Fevin","fevin1@gmail.com","Kanyakumari"));
+		sellerList.add(new Seller(02,"Fejin","fejin2@gmail.com","Kanyakumari"));
+		sellerList.add(new Seller(03,"Vibi","vibi3@gmail.com","Chennai"));
+		sellerList.add(new Seller(04,"Elsie","elsie4@gmail.com","Chennai"));
+	}
+	
+	public static void main(String[] args) {
+		Seller se=new Seller();
+		
+		
+
+	}
+
+}

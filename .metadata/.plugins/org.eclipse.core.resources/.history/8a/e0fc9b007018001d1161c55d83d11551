@@ -1,0 +1,5 @@
+package com.hexaware.java8examples.streamapiexamples;
+
+public class StreamFilterDemo {
+
+}

@@ -1,0 +1,19 @@
+package com.hexaware.collectionsandjava8;
+
+import java.util.ArrayList;
+import java.util.List;
+public class TestSeller {
+	List <Seller> sellerList = new ArrayList <Seller> ();
+	
+	public void record() {
+		sellerList.add(new Seller(01,"Fevin","fevin1@gmail.com","Kanyakumari"));
+	}
+	
+	public static void main(String[] args) {
+		Seller se=new Seller();
+		
+		
+
+	}
+
+}

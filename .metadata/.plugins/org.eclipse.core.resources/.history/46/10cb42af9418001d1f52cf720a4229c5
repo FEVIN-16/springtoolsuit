@@ -1,0 +1,51 @@
+package com.hexaware.collectionsandjava8;
+
+import java.util.ArrayList;
+import java.util.List;
+public class TestSeller {
+
+	public static void main(String[] args) {
+		Seller se=new Seller();
+		List<String> arr = new ArrayList<>();
+		se.setSellerId(01);
+		se.setSellerName("Fevin");
+		se.setSellerEmail("fevin@gmail.com");
+		se.setSellerLocation("Kanyakumari");
+		
+		arr.add(String.valueOf(se.getSellerId()));
+		arr.add(se.getSellerName());
+		arr.add(se.getSellerEmail());
+		arr.add(se.sellerLocation);
+		
+		se.setSellerId(02);
+		se.setSellerName("Fejin");
+		se.setSellerEmail("fejinfm2000@gmail.com");
+		se.setSellerLocation("Kanyakumari");
+		
+		se.setSellerId(02);
+		se.setSellerName("Vibi");
+		se.setSellerEmail("vibi@gmail.com");
+		se.setSellerLocation("Chennai");
+		
+		se.setSellerId(02);
+		se.setSellerName("Elsie");
+		se.setSellerEmail("elsie@gmail.com");
+		se.setSellerLocation("Chennai");
+		
+//		int setSellerId[] = {01, 02, 03, 04, 05, 06};   
+//		String setSellerName[] = {"Fevin", "Vibi", "Fejin", "Elsie", "Arun", "Shijin"};  
+//		String setSellerEmail[] = {"fevin@gmail.com", "Vibi@gmail.com", "Fejin@gmail.com", "Elsie@gmail.com", "Arun@gmail.com", "Shijin@gmail.com"}; 
+//		String setSellerLocation[] = {"Kanyakumari", "Chennai", "Kanyakumari", "Chennai", "Madurai", "Chennai"}; 
+//		
+//		ArrayList<Object> arr=new ArrayList<Object>();   
+//		for (int i = 0; i < arr.size(); i++)   
+//		{   
+//		//send values to the constructor to be saved in the Product class  
+//		arr.add(new Object (sellerId[i]);   
+//		} 
+		
+		
+
+	}
+
+}

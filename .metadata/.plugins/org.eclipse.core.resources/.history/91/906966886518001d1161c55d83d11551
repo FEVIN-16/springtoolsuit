@@ -1,0 +1,5 @@
+package com.hexaware.java8examples.userdefinedfunctionalinterfaceexample;
+
+public class PredicateInterfaceExample {
+
+}

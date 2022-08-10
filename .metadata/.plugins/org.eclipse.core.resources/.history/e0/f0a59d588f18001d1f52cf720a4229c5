@@ -1,0 +1,20 @@
+package com.hexaware.collectionsandjava8;
+
+import java.util.ArrayList;
+
+public class TestSeller {
+
+	public static void main(String[] args) {
+		Seller se=new Seller();
+		se.setSellerId(01);
+		se.setSellerName("Fejin");
+		se.setSellerEmail("fejinfm2000@gmail.com");
+		se.setSellerLocation("Kanyakumari");
+		
+		
+		ArrayList<Object> arr = new ArrayList<Object>();
+		
+
+	}
+
+}

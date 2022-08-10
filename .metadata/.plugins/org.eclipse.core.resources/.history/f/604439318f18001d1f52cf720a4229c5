@@ -1,0 +1,16 @@
+package com.hexaware.collectionsandjava8;
+
+import java.util.ArrayList;
+
+public class TestSeller {
+
+	public static void main(String[] args) {
+		Seller se=new Seller();
+		
+		
+		ArrayList<Object> arr = new ArrayList<Object>();
+		
+
+	}
+
+}

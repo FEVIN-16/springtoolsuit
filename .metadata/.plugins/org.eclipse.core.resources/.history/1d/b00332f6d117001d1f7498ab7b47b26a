@@ -1,0 +1,5 @@
+package com.hexaware.functionalinterface;
+@FunctionalInterface
+public class Addition {
+	void add();
+}

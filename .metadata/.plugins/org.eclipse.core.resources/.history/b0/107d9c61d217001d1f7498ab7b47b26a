@@ -1,0 +1,5 @@
+package com.hexaware.functionalinterface;
+@FuctionalInterface
+public interface Division {
+	float div(int x,int y);
+}
